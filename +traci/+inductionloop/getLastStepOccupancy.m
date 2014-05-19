@@ -10,3 +10,8 @@ function lastStepOccupancy = getLastStepOccupancy(loopID)
 
 import traci.constants
 lastStepOccupancy = traci.inductionloop.getUniversal(constants.LAST_STEP_OCCUPANCY, loopID);
+
+% modified by Qiang Pan
+if (lastStepOccupancy == -1)
+    lastStepOccupancy = 0;
+end
