@@ -25,12 +25,18 @@ recvlength = recvlength - 4;
 % Receive the response
 result = [];
 while length(result) < recvlength
+    %%
+    if ((recvlength-length(result)) > 512)
+        t = fread(connections(''),512,'uint8');
+    else
+    %%
 	t = fread(connections(''),recvlength-length(result),'uint8');
+    end
 	if isempty(t)
 		result = [];
 		return
 	end
-	result = [result t];
+	result = [result; t];
 end
 
 % Construct the traci.Storage object containing the result
