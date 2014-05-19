@@ -551,6 +551,9 @@ classdef constants
 
 		% how speed is set (set: vehicle)
 		VAR_SPEEDSETMODE = '0xb3'
+		
+		% lane change mode (set: vehicle)
+		VAR_LANECHANGEMODE = '0xb6'
 
 		% move vehicle, VTD version (set: vehicle)
 		VAR_MOVE_TO_VTD = '0xb4'
