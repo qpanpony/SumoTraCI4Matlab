@@ -1,6 +1,6 @@
 SumoTraCI4Matlab
 ================
-Sumo is an open source, highly portable, microscopic and continuous road traffic simulation package designed to handle large road networks. It is mainly developed by employees of the Institute of Transportation Systems at the German Aerospace Centers
+Sumo is an open source, highly portable, microscopic and continuous road traffic simulation package designed to handle large road networks. It is mainly developed by employees of the Institute of Transportation Systems at the German Aerospace Centers.
 
 Sumo is open source, licensed under the GPL.
 
