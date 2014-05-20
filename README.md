@@ -1,8 +1,8 @@
 SumoTraCI4Matlab
 ================
-Sumo is an open source, highly portable, microscopic and continuous road traffic simulation package designed to handle large road networks. It is mainly developed by employees of the Institute of Transportation Systems at the German Aerospace Centers.
+Sumo (www.sumo-sim.org) is an open source, highly portable, microscopic and continuous road traffic simulation package designed to handle large road networks. 
 
-Sumo is open source, licensed under the GPL.
+Sumo is mainly developed by employees of the Institute of Transportation Systems at the German Aerospace Centers. Sumo is open source, licensed under the GPL.
 
 TraCI4Matlab is an implementation of the TraCI(Traffic Control Interface) protocol that allows the user to interact with SUMO in a client-server scenario in which Matlab acts as the client, and SUMO as the server. TraCI4Matlab is an API developed in Matlab that allows the communciation between any application developed in this language and the urban traffic simulator SUMO. The functions that comprise TraCI4Matlab implement the TraCI application level protocol, which is built on top of the TCP/IP stack, so the application developed in Matlab, which is the client, can access and modify the simulation environment provided by the server (SUMO). TraCI4Matlab allows controlling SUMO objects such as vehicles, traffic lights, junctions, etc. Enabling applications like traffic lights preditive control and dynamic route assignment, among others.
 
